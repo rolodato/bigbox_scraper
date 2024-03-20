@@ -4,11 +4,12 @@ version = "0.1.0"
 description = ""
 authors = ["Rodrigo López Dato <rolodato@rolodato.com>"]
 readme = "README.md"
+package-mode = false
 
 [tool.poetry.dependencies]
-python = "^3.12"
+python = "^3.8"
 scrapy = "^2.11.1"
-scrapy-playwright = "^0.0.34"
+beautifulsoup4 = "^4.12.3"
 
 
 [build-system]
